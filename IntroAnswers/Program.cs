@@ -70,5 +70,11 @@
 			double numberOfBalls = (volBallPit / volBall) * PackingDensity;
             return Math.Ceiling(numberOfBalls); 
 		}
+		 
+		public static double Circumference(double radiusofball)
+		{
+			double circumference=Math.PI * 2 * radiusofball;
+			return Math.Round(circumference,2);
+		}
     }
 }
